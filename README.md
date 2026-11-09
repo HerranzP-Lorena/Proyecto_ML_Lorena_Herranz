@@ -2,7 +2,7 @@
 
 Proyecto completo de Machine Learning — Máster de FP en Inteligencia Artificial y Big Data.
 
-**Autora:** Lorena Herranz [apellido]
+**Autora:** Lorena Herranz Pascual
 
 ## Contenido
 
