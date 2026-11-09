@@ -1,5 +1,19 @@
-**Observaciones del histograma:**
+# Predicción del precio del gasóleo en las gasolineras de España
 
-* La distribución tiene **dos picos**: un grupo de gasolineras entre 1,70 y 1,80 €/litro y otro grupo más numeroso entre 1,90 y 2,00 €/litro. Esto sugiere que hay dos tipos de gasolineras con políticas de precio diferentes. Mi hipótesis es que el grupo barato corresponde a gasolineras de bajo coste o independientes y el caro a las grandes marcas. Lo compruebo más adelante con la columna `Rótulo`.
-* Hay una cola de pocas gasolineras muy baratas, entre 1,40 y 1,65 €/litro, separada del resto. Encaja con la hipótesis de Canarias, Ceuta y Melilla.
-* También hay unas pocas gasolineras caras por encima de 2,05 €/litro, hasta un máximo de 2,25.
+Proyecto completo de Machine Learning — Máster de FP en Inteligencia Artificial y Big Data.
+
+**Autora:** Lorena Herranz [apellido]
+
+## Contenido
+
+| Archivo | Descripción |
+|---|---|
+| `Proyecto_ML_LorenaHerranz.ipynb` | Cuaderno con el proyecto completo |
+| `gasolineras_2026-11-09.csv` | Dataset: precios de 11.479 gasolineras de España a fecha 9/11/2026, 9:42 h |
+| `descargar_gasolineras.py` | Script de Python que descargó los datos del servicio REST del Ministerio |
+
+## Fuente de los datos
+
+Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO), servicio REST de precios
+de carburantes en estaciones de servicio terrestres:
+https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/
