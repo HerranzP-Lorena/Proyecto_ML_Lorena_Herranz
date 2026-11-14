@@ -4,8 +4,8 @@ Proyecto completo de Machine Learning — Máster de FP en Inteligencia Artifici
 
 **Autora:** Lorena Herranz Pascual
 
-- **Vídeo explicativo:** [ver en YouTube](PEGA_AQUÍ_EL_ENLACE_DE_YOUTUBE)
-- **Cuaderno en Google Colab:** [abrir en Colab](PEGA_AQUÍ_EL_ENLACE_DE_COLAB)
+- **Vídeo explicativo:** [ver en YouTube]https://www.youtube.com/watch?v=J1HzpghMQ2o
+- **Cuaderno en Google Colab:** [abrir en Colab]https://colab.research.google.com/drive/11miEskv_PQzkX-pj4CTP5LDn_TkTAfwk#scrollTo=fcQFfi_4f8wy
 
 ## Objetivo
 
