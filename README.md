@@ -4,6 +4,26 @@ Proyecto completo de Machine Learning — Máster de FP en Inteligencia Artifici
 
 **Autora:** Lorena Herranz Pascual
 
+- **Vídeo explicativo:** [ver en YouTube](PEGA_AQUÍ_EL_ENLACE_DE_YOUTUBE)
+- **Cuaderno en Google Colab:** [abrir en Colab](PEGA_AQUÍ_EL_ENLACE_DE_COLAB)
+
+## Objetivo
+
+Predecir el precio del gasóleo A de una gasolinera a partir de su ubicación, su marca, su horario y el margen de la carretera.
+Es un problema de aprendizaje supervisado y de regresión múltiple.
+
+## Resultados
+
+| Modelo | Error medio (RMSE, validación cruzada) | R² |
+|---|---|---|
+| Random forest ajustado | 0,060 €/l | 0,647 |
+| Random forest | 0,061 €/l | 0,634 |
+| Regresión lineal | 0,064 €/l | 0,598 |
+| Árbol de decisión | 0,079 €/l | 0,382 |
+
+El modelo elegido (random forest ajustado) obtiene en los datos de prueba un error medio de **5,7 céntimos por litro**
+y explica el **68 %** de las diferencias de precio. La marca y la ubicación son las características más importantes.
+
 ## Contenido
 
 | Archivo | Descripción |
@@ -14,6 +34,6 @@ Proyecto completo de Machine Learning — Máster de FP en Inteligencia Artifici
 
 ## Fuente de los datos
 
-Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO), servicio REST de precios
-de carburantes en estaciones de servicio terrestres:
+Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO), servicio REST de precios de carburantes
+en estaciones de servicio terrestres:
 https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/
